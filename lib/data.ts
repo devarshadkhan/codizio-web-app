@@ -1,5 +1,4 @@
-import { Service, Project, Testimonial, TeamMember, } from "@/types";
-import { Globe, Brain, Blocks, Gamepad2, Smartphone, BarChart3 } from "lucide-react"
+import { Project, TeamMember, Testimonial } from "@/types";
 export const services = [
   {
     id: 1,
@@ -156,7 +155,7 @@ export const testimonials: Testimonial[] = [
     name: "Sarah Johnson",
     role: "CTO",
     company: "NexaTech Solutions",
-    content: "Working with Zappinzy Technologies transformed our digital presence. Their innovative approach and technical expertise exceeded our expectations. The team delivered on time and within budget.",
+    content: "Working with Codizio Technologies transformed our digital presence. Their innovative approach and technical expertise exceeded our expectations. The team delivered on time and within budget.",
     avatar: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg",
   },
   {
@@ -164,7 +163,7 @@ export const testimonials: Testimonial[] = [
     name: "Michael Chen",
     role: "Product Manager",
     company: "Quantum Innovations",
-    content: "Zappinzy built our mobile app from scratch and the results were outstanding. Their attention to detail and focus on user experience made all the difference. Highly recommended for any tech project!",
+    content: "Codizio built our mobile app from scratch and the results were outstanding. Their attention to detail and focus on user experience made all the difference. Highly recommended for any tech project!",
     avatar: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
   },
   {
@@ -172,7 +171,7 @@ export const testimonials: Testimonial[] = [
     name: "Emma Williams",
     role: "CEO",
     company: "Elevate Digital",
-    content: "The blockchain solution that Zappinzy created has revolutionized our business operations. Their team's expertise in emerging technologies is unmatched. A pleasure to work with from start to finish.",
+    content: "The blockchain solution that Codizio created has revolutionized our business operations. Their team's expertise in emerging technologies is unmatched. A pleasure to work with from start to finish.",
     avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
   },
 ];
@@ -182,14 +181,14 @@ export const teamMembers: TeamMember[] = [
     id: "1",
     name: "Alex Rivera",
     role: "Founder & CEO",
-    bio: "With 15+ years in tech innovation, Alex leads Zappinzy's vision to transform businesses through cutting-edge digital solutions.",
+    bio: "With 15+ years in tech innovation, Alex leads Codizio's vision to transform businesses through cutting-edge digital solutions.",
     avatar: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
   },
   {
     id: "2",
     name: "Priya Sharma",
     role: "CTO",
-    bio: "Priya brings extensive expertise in emerging technologies, driving Zappinzy's technical strategy and innovation pipeline.",
+    bio: "Priya brings extensive expertise in emerging technologies, driving Codizio's technical strategy and innovation pipeline.",
     avatar: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
   },
   {

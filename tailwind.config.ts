@@ -16,7 +16,7 @@ const config: Config = {
         Montserrat: ['var(--font-space-grotesk)', 'sans-serif'],
       },
       colors: {
-        // Custom colors based on Zappinzy's palette
+        // Custom colors based on Codizio's palette
         'zappy-purple': '#5A31F4',     // Indigo Purple
         'zappy-coral': '#FF6F61',      // Electric Coral
         'zappy-mint': '#7FFFD4',       // Cyber Mint

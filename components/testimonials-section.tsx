@@ -1,12 +1,12 @@
 "use client"
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
-import { ChevronLeft, ChevronRight, Quote } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { testimonials } from '@/lib/data'
 import { cn } from '@/lib/utils'
+import { motion } from 'framer-motion'
+import { ChevronLeft, ChevronRight, Quote } from 'lucide-react'
+import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 export default function TestimonialsSection() {
   const [current, setCurrent] = useState(0)
@@ -46,7 +46,7 @@ export default function TestimonialsSection() {
               Client <span className="gradient-text">Testimonials</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Hear what our clients have to say about working with Zappinzy Technologies.
+              Hear what our clients have to say about working with Codizio Technologies.
             </p>
           </motion.div>
         </div>

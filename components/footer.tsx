@@ -1,15 +1,15 @@
-import Link from "next/link";
 import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Github,
-  ZapIcon,
-  MapPin,
-  Mail,
-  Phone,
+    Facebook,
+    Github,
+    Instagram,
+    Linkedin,
+    Mail,
+    MapPin,
+    Phone,
+    Twitter,
+    ZapIcon,
 } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
             <ZapIcon className="h-5 w-5 text-white" />
             <div className="absolute inset-0 rounded-md bg-purple-600 hover:bg-purple-700blur-sm -z-10"></div>
           </div>
-          <span className="font-heading font-bold text-2xl">zappinZY</span>
+          <span className="font-heading font-bold text-2xl">Codizio</span>
         </Link>
             <p className="text-muted-foreground">
               Pioneering digital transformation with innovative IT solutions.
@@ -243,11 +243,11 @@ const Footer = () => {
                   </p>
                   <p className="pt-2">
                     <a
-                      href="mailto:info@zappinzy.com"
+                      href="mailto:info@Codizio.com"
                       className=" transition-colors flex gap-2 items-center"
                     >
                       <Mail className="h-5 w-5" />
-                      info@zappinzy.com
+                      info@Codizio.com
                     </a>
                   </p>
                   <p>
@@ -271,11 +271,11 @@ const Footer = () => {
                   </p>
                   <p className="pt-2">
                     <a
-                      href="mailto:info@zappinzy.com"
+                      href="mailto:info@Codizio.com"
                       className=" transition-colors flex gap-2 items-center"
                     >
                       <Mail className="h-5 w-5" />
-                      info@zappinzy.com
+                      info@Codizio.com
                     </a>
                   </p>
                   <p>
@@ -295,7 +295,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} Zappinzy Technologies. All rights
+            &copy; {new Date().getFullYear()} Codizio Technologies. All rights
             reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">

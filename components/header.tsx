@@ -47,7 +47,7 @@ const Header = () => {
             <ZapIcon className="h-5 w-5 text-white" />
             <div className="absolute inset-0 rounded-md bg-purple-600 hover:bg-purple-700blur-sm -z-10"></div>
           </div>
-          <span className="font-heading font-bold text-2xl">zappinZY</span>
+          <span className="font-heading font-bold text-2xl">Codizio</span>
         </Link>
 
         {/* Desktop Navigation */}

@@ -1,9 +1,9 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Space_Grotesk, Inter, Montserrat } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
-import Header from '@/components/header';
 import Footer from '@/components/footer';
+import Header from '@/components/header';
+import { ThemeProvider } from '@/components/theme-provider';
+import type { Metadata } from 'next';
+import { Montserrat, Space_Grotesk } from 'next/font/google';
+import './globals.css';
 
 const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'],
@@ -26,7 +26,7 @@ const poppins = Montserrat({
   display: "swap",
 });
 export const metadata: Metadata = {
-  title: 'Zappinzy Technologies - IT & Digital Services Agency',
+  title: 'Codizio Technologies - IT & Digital Services Agency',
   description: 'Pioneering digital transformation with innovative IT solutions and services',
 };
 

@@ -1,10 +1,9 @@
 "use client"
 
-import Image from 'next/image'
+import CTASection from '@/components/cta-section'
 import { motion } from 'framer-motion'
 import { CheckCircle, ZapIcon } from 'lucide-react'
-import { teamMembers } from '@/lib/data'
-import CTASection from '@/components/cta-section'
+import Image from 'next/image'
 
 export default function AboutPage() {
   return (
@@ -19,7 +18,7 @@ export default function AboutPage() {
           >
             <h1 className="text-4xl md:text-6xl font-bold font-heading mb-6">
               About <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              zappinZY
+              Codizio
               </span> 
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -35,7 +34,7 @@ export default function AboutPage() {
             >
               <h2 className="text-3xl font-bold font-heading mb-6">Our Story</h2>
               <p className="text-muted-foreground mb-4">
-                Zappinzy Technologies was founded with a vision to bridge the gap between complex technology and business needs. What started as a small team of passionate developers has grown into a full-service digital agency with global reach.
+                Codizio Technologies was founded with a vision to bridge the gap between complex technology and business needs. What started as a small team of passionate developers has grown into a full-service digital agency with global reach.
               </p>
               <p className="text-muted-foreground mb-6">
                 Our journey has been defined by continuous innovation, unwavering commitment to quality, and a deep understanding of emerging technologies that shape the digital landscape.
@@ -65,7 +64,7 @@ export default function AboutPage() {
               <div className="aspect-video relative rounded-xl overflow-hidden">
                 <Image
                   src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg"
-                  alt="Zappinzy team collaboration"
+                  alt="Codizio team collaboration"
                   className="object-cover"
                   fill
                 />

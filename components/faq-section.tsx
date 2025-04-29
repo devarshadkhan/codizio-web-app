@@ -1,13 +1,13 @@
 "use client"
 
-import { useState } from "react"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { HelpCircle } from "lucide-react"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { HelpCircle } from "lucide-react";
+import { useState } from "react";
 
 const faqData = [
     // {
-    //   question: "What services does Zappinzy offer?",
-    //   answer: "Zappinzy offers a comprehensive range of IT services including web development, mobile app development, UI/UX design, cloud solutions, digital marketing, and cybersecurity services. We specialize in creating custom solutions tailored to your business needs."
+    //   question: "What services does Codizio offer?",
+    //   answer: "Codizio offers a comprehensive range of IT services including web development, mobile app development, UI/UX design, cloud solutions, digital marketing, and cybersecurity services. We specialize in creating custom solutions tailored to your business needs."
     // },
     // {
     //   question: "How long does it typically take to complete a project?",
@@ -79,7 +79,7 @@ const faqData = [
     },
     {
       question: "How do I begin my project with you?",
-      answer: "It’s pretty simple, just contact us or just ping us at : info@Zappinzy.com"
+      answer: "It’s pretty simple, just contact us or just ping us at : info@Codizio.com"
     },
   ];
   

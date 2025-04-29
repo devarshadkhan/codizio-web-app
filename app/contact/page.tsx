@@ -1,23 +1,22 @@
 "use client"
 
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { Mail, MapPin, Phone, MessageSquare, Send } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import {
+    Form,
+    FormControl,
+    FormField,
+    FormItem,
+    FormLabel,
+    FormMessage,
+} from '@/components/ui/form'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import { Label } from '@/components/ui/label'
+import { zodResolver } from '@hookform/resolvers/zod'
+import { motion } from 'framer-motion'
+import { Mail, MapPin, MessageSquare, Phone, Send } from 'lucide-react'
+import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
-import { zodResolver } from '@hookform/resolvers/zod'
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from '@/components/ui/form'
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters" }),
@@ -107,13 +106,13 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-medium mb-1">Email Us</h3>
                     <p className="text-muted-foreground">
-                      <a href="mailto:info@zappinzy.com" className="hover:text-primary transition-colors">
-                        info@zappinzy.com
+                      <a href="mailto:info@Codizio.com" className="hover:text-primary transition-colors">
+                        info@Codizio.com
                       </a>
                     </p>
                     <p className="text-muted-foreground">
-                      <a href="mailto:support@zappinzy.com" className="hover:text-primary transition-colors">
-                        support@zappinzy.com
+                      <a href="mailto:support@Codizio.com" className="hover:text-primary transition-colors">
+                        support@Codizio.com
                       </a>
                     </p>
                   </div>
